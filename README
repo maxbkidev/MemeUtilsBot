@@ -1,63 +1,41 @@
 # MemeUtilsBot
 
-A Discord bot built with Node.js that provides a collection of fun and utility commands for Discord servers. This project was created to gain practical experience with Discord bot development, API integration, and asynchronous JavaScript programming.
+## Overview
+
+Simple Discord bot built with Node.js featuring fun and utility commands for Discord servers.
 
 ## Features
 
-* Meme and fun commands
-* Utility commands for server members
-* Command handling system
-* Discord API integration
-* Event-driven architecture
+* Meme commands
+* Fun interactions
+* Utility commands
+* Discord server integration
 
-## Technologies Used
+## Tech Stack
 
 * Node.js
-* JavaScript (ES6+)
+* JavaScript
 * Discord.js
 * npm
 
-## Installation
+## How to Run
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/MemeUtilsBot.git
-cd MemeUtilsBot
-```
-
-2. Install dependencies:
+1. Install dependencies:
 
 ```bash
 npm install
 ```
 
-3. Create a Discord bot application and obtain a bot token from the Discord Developer Portal.
+2. Open `index.js`.
 
-4. Open `index.js` and insert your bot token at the end of the file where indicated.
+3. Insert your Discord bot token at the end of the file.
 
-5. Start the bot:
+4. Start the bot:
 
 ```bash
 node index.js
 ```
 
-## Configuration
+## Note
 
-This project currently expects the Discord bot token to be entered manually in `index.js`.
-
-**Important:** Never commit your personal bot token to GitHub. If you plan to continue developing this project, consider moving the token to a `.env` file and adding it to `.gitignore`.
-
-## Learning Goals
-
-This project helped me gain experience with:
-
-* Working with external APIs
-* Event-driven programming
-* Asynchronous JavaScript
-* Managing Node.js dependencies
-* Building and deploying Discord bots
-
-## Disclaimer
-
-This repository is part of my software development portfolio and reflects an earlier learning project.
+A valid Discord bot token is required. The token must be entered manually in `index.js`.
